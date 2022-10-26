@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Fictive Reality Mini Frontend Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a mini challenge to test your skills in React & Javascript coding. It's created to be small and quick, it should not need more than 50-100 lines of code and should not take more than an hour to complete.
 
-## Available Scripts
+## Your mission
 
-In the project directory, you can run:
+In the file `App.js` you should create an input field that the user types text into, and when you press **Enter**, the word should be added to a list below the input and the input cleared. Also, as you type, you should highlight the current input value if it can be found in any of the words in the list. See the GIF below for the expected behaviour.
 
-### `yarn start`
+![Demonstration](demo.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Submit by either forking this repository to your GitHub profile and sending us the link when finished, or if you don't use GitHub just email me the App.js file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we look for
 
-### `yarn test`
+- Using modern React (hooks)
+- Clean and efficient code. Don't make it too complicated.
+- Comments where needed
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## If you want to spend some more time
 
-### `yarn build`
+*You don't need to!*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add a button to clear the list of words
+- Think about error handling or unexpected input
+- Use CSS to make the App look nicer
