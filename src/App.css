@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  background-image: url("https://uploads-ssl.webflow.com/601d303b15c06e995e3b16ff/6167e067a088dbf4c4ed138b_headertest-p-500.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.listBox {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  flex-direction: column;
+  padding: 25px;
+  width: 400px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+button {
+  align-self: flex-end;
+  border: 2px solid white;
+  outline: 0;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  display: inline-block;
+  min-height: 28px;
+}
+button:hover {
+  transition: 0.3s;
+  background-color: rgba(240, 248, 255, 0.144);
+}
+
+#ulText {
+  list-style-type: none;
+}
+input {
+  width: 100%;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+input::placeholder {
+  color: whitesmoke;
+  font-size: 18px;
+}

@@ -18,7 +18,7 @@ Best way to submit is to zip your code and send it to us by email. You can also 
 
 ## If you want to spend some more time
 
-*You don't need to!*
+_You don't need to!_
 
 - Add a button to clear the list of words
 - Think about error handling or unexpected input
