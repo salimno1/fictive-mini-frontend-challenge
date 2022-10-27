@@ -8,7 +8,7 @@ In the file `App.js` you should create an input field that the user types text i
 
 ![Demonstration](demo.gif)
 
-Submit by either forking this repository to your GitHub profile and sending us the link when finished, or if you don't use GitHub just email me the App.js file.
+Best way to submit is to zip your code and send it to us by email. You can also fork this repository to your GitHub profile and send us the link (but be aware that other people may be able to read your forked code).
 
 ## What we look for
 
